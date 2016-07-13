@@ -1,12 +1,25 @@
-h2 {
+body{
 	text-align: center;
-
+	background-color:darkred;
+	color: white;
+	font-family: sans-serif;
+	font-size: 40px;
 }
 #winner{
-	font-size: 30px;
+	
 }
 
 #computer{
-	font-size: 30px;
+	
 }
+button{
+	background-color: red;
+	font-size: 20px;
+	height: 100px;
+	width: 200px;
+}
+div{
+	display: inline-block;
+	width: 800px;
+	height: 100px;
 }
