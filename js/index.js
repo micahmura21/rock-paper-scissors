@@ -42,14 +42,14 @@ var compare = function(choice1, choice2){
             document.getElementById("computer").innerHTML = "Computer: " + choice2 + "  Player: "+ choice1;
             document.getElementById("buttons").innerHTML = "";
         }
-    } else if (choice1 == "rock"){
-        if (choice2 == "scissors") {
-            document.getElementById("winner").innerHTML = "player Wins "; 
+    } else if (choice1 == "scissors"){
+        if (choice2 == "rock"){
+            document.getElementById("winner").innerHTML = "Computer Wins "; 
             document.getElementById("computer").innerHTML = "Computer: " + choice2 + "  Player: "+ choice1;
             document.getElementById("buttons").innerHTML = "";
             return
          } else {
-            document.getElementById("winner").innerHTML = "Computer Wins "; 
+            document.getElementById("winner").innerHTML = "player Wins "; 
             document.getElementById("computer").innerHTML = "Computer: " + choice2 + "  Player: "+ choice1;
             document.getElementById("buttons").innerHTML = "";
             return
